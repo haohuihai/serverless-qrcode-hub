@@ -13,8 +13,8 @@ crons = ["0 2 */1 * *"]
 
 [[env.dev.d1_databases]]
 binding = "DB"
-database_name = "qrcode_hub_dev"
-database_id = "1cfa1ef6-a076-410b-aa19-50f63411313c"
+database_name = "hui_qrcode_hub"
+database_id = "50b83f01-c826-4bf3-b521-299dd34f316d"
 
 [env.dev.triggers]
 crons = ["*/10 * * * * *"]
